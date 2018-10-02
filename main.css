@@ -4,7 +4,7 @@ header {
 }
 
 
-
+/*header-----------------*/
 
 .header-image {
     height: 370px;
@@ -61,13 +61,75 @@ header {
     margin-top: 5px;
 }
 
-footer {
-    background-color: grey;
+.carousel-background {
+    background-color: white;
+    padding-bottom: 10px;
 }
 
-.footer-text {
-    color: #00FA9A;
+.carousel-heading {
+    color:red;
+    text-align: center;
 }
+
+.carousel-book-title {
+    color:green;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+.carousel-control-prev-icon {
+    background-image: url("images/arrow.png");
+}
+
+
+/*footer*/
+
+footer {
+    background-color: grey;
+    margin-top: 10px;
+}
+
+
 h7 {
     font-weight: bold;
+    color: #00FA9A;
+}
+p > a {
+    color:black;
+}
+p > a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.address {
+    color:black;
+}
+.social-media-icon-facebook {
+    font-size: 50px;
+    margin: 0 15px 15px 0;
+    
+}
+.social-media-icon-facebook:hover {
+    color: rgb(59, 89, 152);
+}
+.social-media-icon-twitter {
+    font-size: 50px
+}
+.social-media-icon-twitter:hover {
+    color: #1DA1F2;
+}
+.social-media-icon-instagram {
+    font-size: 50px;
+    margin: 0 15px 15px 0;
+}
+.social-media-icon-instagram:hover {
+   color: #8a3ab9;
+}
+.social-media-icon-snapchat {
+    font-size: 50px
+}
+.social-media-icon-snapchat:hover {
+    color: #FFFB00;
 }
