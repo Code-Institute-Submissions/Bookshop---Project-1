@@ -26,10 +26,10 @@
 
 
         <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -46,37 +46,51 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                    <i class="far fa-user "></i>
-                    <i class="fas fa-euro-sign"></i>
+                </ul>
+
+
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="#" class="far fa-user user"></a></li>
+                    <li><a href="#" class="fas fa-euro-sign currency"></a></li>
+                    <li><a href="#" class="fas fa-shopping-basket basket"></a></li>
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <a class="banner" href="#">Events</a>
-                </div>
-                <div class="col-md-4">
-                    <a class="banner" href="#">Store Locator</a>
-                </div>
-                <div class="col-md-4">
-                    <a class="banner" href="#">Gift Vouchers</a>
-                </div>
-            </div>
-        </div>
+
 
 
     </header>
     <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-inline">
+                        <input class="search-bar" type="text" name="search" placeholder="Search Title, Autor, Sport..">
+                        <button class="fas fa-search search-button" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid banner-text-align">
+            <div class="row">
+                <div class="col-md-4 banner-background-events banner-events">
+                    <a class="banner-events" href="#">Events</a>
+                </div>
+                <div class="col-md-4 banner-background-store-locator banner-store-locator">
+                    <a class="banner-store-locator" href="#">Store Locator</a>
+                </div>
+                <div class="col-md-4 banner-background-gift-voucher banner-gift-voucher">
+                    <a class="banner-gift-voucher" href="#">Gift Voucher</a>
+                </div>
+            </div>
+        </div>
         <div>
             <div class="container-fluid">
                 <div class="row">
-                    <img src="images/sectionimage.jpg" class="sectionpicture">
-                    <div class="col-md-6">
+                    <div class="col-md-12">
+                        <img src="images/section/sectionimage.jpg" class="sectionpicture float-left">
+
                         <h1>About Us</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum quo consectetur fugit repudiandae nam dignissimos, minima dicta et ipsa similique possimus dolore dolor ullam corporis nesciunt, officia tenetur. Numquam necessitatibus
                             ab dolorum laborum dolore excepturi et aspernatur. Neque, quas accusantium. Officiis voluptatibus dolor, aut, doloremque labore sit magni consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nobis
@@ -94,16 +108,22 @@
                 <h3>This Week's Best Sellers</h3>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="carousel-book-title"><h5>#3 David Beckham</h5></div>
-                        <img class="d-block w-25" src="images/davidbeckham.jpg" alt="First slide">
+                        <div class="carousel-book-title">
+                            <h5>#3 David Beckham</h5>
+                        </div>
+                        <img class="d-block w-25" src="images/carousel/davidbeckham.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-book-title"><h5>#1 Tiger Woods</h5></div>
-                        <img class="d-block w-25" src="images/tigerwoods2.jpg" alt="Second slide">
+                        <div class="carousel-book-title">
+                            <h5>#1 Tiger Woods</h5>
+                        </div>
+                        <img class="d-block w-25" src="images/carousel/tigerwoods.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-book-title"><h5>#2 Ruby Walsh</h5></div>
-                        <img class="d-block w-25" src="images/rubywalsh1.jpg" alt="Third slide">
+                        <div class="carousel-book-title">
+                            <h5>#2 Ruby Walsh</h5>
+                        </div>
+                        <img class="d-block w-25" src="images/carousel/rubywalsh.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -111,7 +131,7 @@
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon forward" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
@@ -122,7 +142,7 @@
     <footer>
         <div class="container">
             <div class="row footer-text">
-                <div class="col-md-3 address">
+                <div class=" col-sm col-md-3 address">
                     <h7>Details</h7>
                     <p>No 3 Pollerton Road<br> Carlow Town<br> Co. Carlow <br> R93W4R3
                     </p>
@@ -131,7 +151,7 @@
                         <a href="#" target="_blank">01-123456789</a>
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class=" col-sm col-md-3">
                     <h7>Account</h7>
                     <p>
                         <a href="#">My Account</a><br>
@@ -139,7 +159,7 @@
                         <a href="#">Wish List</a>
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class=" col-sm col-md-3">
                     <h7>Customer Information</h7>
                     <p>
                         <a href="#">FAQ</a><br>
