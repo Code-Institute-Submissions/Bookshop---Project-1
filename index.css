@@ -9,7 +9,7 @@ header {
 .header-image {
     height: 200px;
     width: 100vw;
-    background-image: url("images/header/headerimage.jpg");
+    background-image: url("index_images/header/headerimage.jpg");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -34,6 +34,7 @@ header {
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
+    font-size: 25px;
 }
 
 .dropdown-item {
@@ -51,17 +52,50 @@ header {
     border-bottom-width: 0px;
 }
 
+.user {
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
+
+.user:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.currency {
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.currency:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.basket {
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.basket:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
 
 input[type=text] {
     width: 260px;
     margin-top: 5px;
+    outline: none;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 5px;
     font-size: 16px;
     background-color: white;
     background-position: 10px 10px;
-    background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     transition: width 0.5s ease-in-out;
 }
@@ -100,43 +134,14 @@ input[type=text]:focus {
 
 
 
+/*section----------------------------------------------*/
 
-
-.user {
-    font-size: 25px;
-    color: white;
-    padding-left: 20px;
+section {
+    margin-top: 4px;
+    border-top-width: 5px;
+    padding-top: 2px;
+    background-color: darkgrey;
 }
-
-.user:hover {
-    text-decoration: none;
-    color: lightgrey;
-}
-
-.currency {
-    font-size: 25px;
-    color: white;
-    padding-left: 10px;
-}
-
-.currency:hover {
-    text-decoration: none;
-    color: lightgrey;
-}
-
-.basket {
-    font-size: 25px;
-    color: white;
-    padding-left: 10px;
-}
-
-.basket:hover {
-    text-decoration: none;
-    color: lightgrey;
-}
-
-
-
 
 .banner-text-align {
     text-align: center;
@@ -146,7 +151,7 @@ input[type=text]:focus {
 }
 
 .banner-background-events {
-    background-image: url("images/banner/events.jpg");
+    background-image: url("index_images/banner/events.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
@@ -180,7 +185,7 @@ input[type=text]:focus {
 }
 
 .banner-background-store-locator {
-    background-image: url("images/banner/storelocator.jpg");
+    background-image: url("index_images/banner/storelocator.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
@@ -204,7 +209,7 @@ input[type=text]:focus {
 }
 
 .banner-background-gift-voucher {
-    background-image: url("images/banner/giftvoucher.jpg");
+    background-image: url("index_images/banner/giftvoucher.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-style: solid;
@@ -227,23 +232,17 @@ input[type=text]:focus {
     text-decoration: none;
 }
 
-/*section----------------------------------------------*/
-
-section {
-    background-color: darkgrey;
-}
-
-.picture {
-    height: 200px;
-    width: 200px;
-    padding-top: 5px;
-    padding-left: 5px;
-}
-
 .sectionpicture {
     height: 200px;
     width: 200px;
     margin: 10px;
+}
+
+.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 .carousel-background {
@@ -252,12 +251,13 @@ section {
 }
 
 .carousel-heading {
-    color: red;
+    color: black;
+    font-weight: 900;
     text-align: center;
 }
 
 .carousel-book-title {
-    color: green;
+    color: #ffe866;
 }
 
 .carousel-inner img {
@@ -265,13 +265,13 @@ section {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("images/carousel/arrowleft.png");
+    background-image: url("index_images/carousel/arrowleft.png");
     height: 50px;
     width: 50px;
 }
 
 .carousel-control-next-icon {
-    background-image: url("images/carousel/arrowright.png");
+    background-image: url("index_images/carousel/arrowright.png");
     height: 50px;
     width: 50px;
 }
