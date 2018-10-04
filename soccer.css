@@ -2,9 +2,7 @@
 
 header {
     margin: 0px;
-
 }
-
 
 .header-image {
     height: 200px;
@@ -12,7 +10,6 @@ header {
     background-image: url("index_images/header/headerimage.jpg");
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .header-text {
@@ -119,7 +116,6 @@ input[type=text]:focus {
     background-color: black;
     border: none;
     border-radius: 15px;
-
 }
 
 .search-button:hover {
@@ -134,18 +130,86 @@ input[type=text]:focus {
 }
 
 
-
 /*section----------------------------------------------*/
 
 section {
     margin-top: 4px;
     border-top-width: 5px;
     padding-top: 2px;
+    padding-bottom: 20px;
     background-color: darkgrey;
 }
 
-.image-steven-gerrard {
+.title-image {
     margin-bottom: 15px;
+}
+
+/*David Beckham: Start ---------------*/
+
+.david-beckham-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+
+/*David Beckham: End------------------ */
+
+/*Alex Ferguson: Start----------------*/
+
+.alex-ferguson-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Alex Ferguson: End----------------*/
+
+/*Peter Crouch: Start----------------*/
+
+.peter-crouch-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Peter Crouch: End----------------*/
+
+/*Cristiano Ronaldo: Start----------------*/
+
+.cristiano-ronaldo-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.author-cristiano-ronaldo {
+    color: gold;
+    font-size: 15px;
+}
+
+/*Cristiano Ronaldo: End----------------*/
+
+/*Rio Ferdinand: Start--------------*/
+
+.rio-ferdinand-title {
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Rio Ferdinand: End----------------*/
+
+.main-div-margin-top {
+    margin-top: 50px;
+}
+.title-hr-margin {
+    margin-top: 0px;
 }
 
 .author {
@@ -194,12 +258,12 @@ section {
     margin-left: 5px;
     width: 200px;
     outline: none!important;
-    color:black;
+    color: black;
     border-color: black;
     font-weight: bold;
-    border-width:5px;
-    
+    border-width: 5px;
 }
+
 
 .read-more-button {
     border-radius: 20px;
@@ -220,10 +284,14 @@ section {
     margin-left: 120px;
     opacity: .4;
 }
+
 .read-more-button:hover {
     opacity: 1;
 }
 
+.hr-over-readmore-button-margin {
+    margin-bottom: 0px;
+}
 
 .synopsis {
     margin-bottom: 0px;
@@ -239,16 +307,12 @@ section {
     border-right-width: 0px;
 }
 
-
-
-
 /*footer----------------------------------*/
 
 footer {
     background-color: grey;
     margin-top: 10px;
 }
-
 
 h7 {
     font-weight: bold;
@@ -271,7 +335,6 @@ p>a:hover {
 .social-media-icon-facebook {
     font-size: 50px;
     margin: 0 15px 15px 0;
-
 }
 
 .social-media-icon-facebook:hover {
