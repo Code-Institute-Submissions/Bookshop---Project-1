@@ -131,23 +131,92 @@ input[type=text]:focus {
 
 /*section--------------------------------*/
 
+section {
+    margin-top: 4px;
+    border-top-width: 5px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    background-color: darkgrey;
+}
 
+.title-name {
+    font-size: 20px;
+}
 
+.input-name {
+    border-radius: 8px;
+    outline: none;
+    width: 200px;
 
+}
 
+.title-email {
+    font-size: 20px;
+}
 
+.input-email {
+    border-radius: 8px;
+    outline: none;
+    width: 200px;
+}
 
+.title-contact {
+    font-size: 20px;
+}
 
+.input-contact {
+    border-radius: 8px;
+    outline: none;
+    width: 200px;
+}
 
+label {
+    width: 70px;
+}
 
+label,
+input {
+    padding-bottom: 10px;
+}
 
+.query-box-title {
+    margin-top: 20px;
+}
 
+.query-box {
+    width: 450px;
+    height: 100px;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
 
+.opening-times-width {
+    padding-left: 120px;
+}
 
+.opening-days {
+    padding-left: 120px;
+    color: black;
+    font-size: 20px;
+}
 
+.opening-times {
+    padding-left: 125px;
+    color: black;
+    font-size: 20px;
+}
 
+.map-width {
+    width: 100%;
+}
 
-
+h1,
+h2,
+h3 {
+    color: #00FA9A;
+    font-weight: 600!important;
+}
 
 
 /*footer----------------------------------*/
