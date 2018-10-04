@@ -1,0 +1,210 @@
+/*header-----------------*/
+
+header {
+    margin: 0px;
+}
+
+.header-image {
+    height: 200px;
+    width: 100vw;
+    background-image: url("index_images/header/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 100px;
+    font-size: 70px;
+    font-family: cursive, sans-serif;
+}
+
+.navbar-nav {
+    margin-left: 33%;
+}
+
+.bg-info {
+    background-color: black!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 25px;
+}
+
+.dropdown-item {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+.user {
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
+
+.user:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.currency {
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.currency:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.basket {
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.basket:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+
+input[type=text] {
+    width: 260px;
+    margin-top: 5px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 93%;
+}
+
+.search-button {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+.search-button:hover {
+    background-color: grey;
+}
+
+.search-button:active {
+    background-color: lightgrey;
+    color: black;
+    /*box-shadow: 0 5px #666;*/
+    /*transform: translateY(4px);*/
+}
+
+/*section--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer----------------------------------*/
+
+footer {
+    background-color: grey;
+    margin-top: 10px;
+}
+
+h7 {
+    font-weight: bold;
+    color: #00FA9A;
+}
+
+p>a {
+    color: black;
+}
+
+p>a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.address {
+    color: black;
+}
+
+.social-media-icon-facebook {
+    font-size: 50px;
+    margin: 0 15px 15px 0;
+}
+
+.social-media-icon-facebook:hover {
+    color: rgb(59, 89, 152);
+}
+
+.social-media-icon-twitter {
+    font-size: 50px
+}
+
+.social-media-icon-twitter:hover {
+    color: #1DA1F2;
+}
+
+.social-media-icon-instagram {
+    font-size: 50px;
+    margin: 0 15px 15px 0;
+}
+
+.social-media-icon-instagram:hover {
+    color: #8a3ab9;
+}
+
+.social-media-icon-snapchat {
+    font-size: 50px
+}
+
+.social-media-icon-snapchat:hover {
+    color: #FFFB00;
+}
