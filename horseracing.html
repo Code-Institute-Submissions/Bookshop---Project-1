@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="horseracing.css" type="text/css" />
+    <title>Project 1 - Book Shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid no-gutters">
+            <div class="row">
+                <div class="col-sm- header-image header-text">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+            <a class="navbar-brand" href="index.html">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Sport</a>
+                        <div class="dropdown-menu" href="#">
+                            <a class="dropdown-item" href="soccer.html">Soccer</a>
+                            <a class="dropdown-item" href="horseracing.html">Horse Racing</a>
+                            <a class="dropdown-item" href="golf.html">Golf</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="#" class="far fa-user user"></a></li>
+                    <li><a href="#" class="fas fa-euro-sign currency"></a></li>
+                    <li><a href="#" class="fas fa-shopping-basket basket"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form-inline">
+                        <input class="search-bar" type="text" name="search" placeholder="Search Title, Autor, Sport..">
+                        <button class="fas fa-search search-button" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <nav label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Sport</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Horse Racing</li>
+            </ol>
+        </nav>
+        <div>
+            <div class="container bottom-margin-spacing">
+                <div class="row">
+                    <div class="col-md-4 bottom-margin-spacing">
+                        <img src="horse_racing_images/rubywalsh.jpg" class="title-image" alt="picture of steven gerrard"></img>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="ruby-walsh-title">RUBY</h1>
+                        <hr>
+                        <p>
+                            By <span class="author">Ruby Walsh</span> | 01/02/12<br>
+                            <span class="price">€18.20</span>
+                            <span class="stock">In Stock</span>
+                            <span class="fas fa-check stock-tick"></span><br>
+                            <hr> Quantity
+                            <input class="quantity-input" type="number" name="quantity of books required" />
+                            <a href="#" class="far fa-heart wish-list"></a>
+                            <hr>
+                            <button href="#" class="btn btn-outline-success buy-button" type="button">Add to Basket</button>
+                            <hr class="hr-over-readmore-button-margin"><br>
+                            <button class="read-more-button" type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-right"></i></button>
+                        </p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h3>Synopsis</h3>
+                        <p class="synopsis">Autobiography of champion jockey and much-loved sports personality Ruby Walsh. A much-loved sports personality throughout Ireland and Great Britain, Ruby has had a career of outstanding success, which includes having won all four
+                            of the home Grand Nationals. This new edition brings his story right up-to-date to include all of the races over the busy Christmas period as well as last year's astonishing triumph against the odds. With many doubting that
+                            he could be race-fit following a broken leg in November 2010, Ruby competed at Cheltenham Festival in March 2011 and won five races, finishing as the leading jockey. Ruby also talks openly about
+                        </p>
+                        <div class="collapse" id="collapseExample7">
+                            <div class="dropdown-synopsis card card-body">
+                                the three key working relationships in his life - with Paul Nicholls, Willie Mullins and his father, the legendary Ted Walsh - as well as laying bare the relationship that exists between him and jockey Tony McCoy - both great friends and professional
+                                rivals. With his intimate knowledge of the two greatest horses of our time, he also provides valuable insight into what it is like to ride Kauto Star and Denman. Ruby charts the rise of an immensely talented and unstoppable
+                                force in the world of sport.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-div-margin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="horse_racing_images/apmccoy.jpg" class="title-image" alt="picture of ap mccoy"></img>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="ap-mccoy-title">WINNER:<br>MY RACING LIFE</h1><br>
+                        <hr class="title-hr-margin">
+                        <p>
+                            By <span class="author">AP McCoy</span> | 03/11/16<br>
+                            <span class="price">€12.99</span>
+                            <span class="stock">In Stock</span>
+                            <span class="fas fa-check stock-tick"></span><br>
+                            <hr> Quantity
+                            <input class="quantity-input" type="number" name="quantity of books required" />
+                            <a href="#" class="far fa-heart wish-list"></a>
+                            <hr>
+                            <button href="#" class="btn btn-outline-success buy-button" type="button">Add to Basket</button>
+                            <hr class="hr-over-readmore-button-margin"><br>
+                            <button class="read-more-button" type="button" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-right"></i></button>
+                        </p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h3>Synopsis</h3>
+                        <p class="synopsis">When Tony 'A.P.' McCoy announced his retirement from racing, the shockwaves reverberated across the world of sport. With more than 4,300 winners to his name, McCoy seemed to be at the peak of his powers when he suddenly brought
+                            down the curtain on an extraordinary career. But then A.P. McCoy has always done things his way. In Winner: My Racing Life, AP reflects upon his unparalleled career, taking the reader from his humble beginnings in County Antrim
+                            to the emotional day at Sandown when horse racing bade a tearful farewell to arguably its greatest ever star. McCoy relates in forensic detail the process that led to his decision to retire, recalls some of his greatest rides,
+                            lifts the lid on his family
+
+                        </p>
+                        <div class="collapse" id="collapseExample8">
+                            <div class="dropdown-synopsis card card-body">
+                                life and looks ahead to a future no longer driven by the constant pursuit of victory. The result is a remarkable insight into the private and public life of a true winner.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-div-margin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="horse_racing_images/paulnicholls.jpg" class="title-image" alt="picture of paul nicholls"></img>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="paul-nicholls-title">LUCKY BREAK</h1><br>
+                        <hr class="title-hr-margin">
+                        <p>
+                            By <span class="author">Paul Nicholls</span> | 17/02/11<br>
+                            <span class="price">€16.50</span>
+                            <span class="stock">In Stock</span>
+                            <span class="fas fa-check stock-tick"></span><br>
+                            <hr> Quantity
+                            <input class="quantity-input" type="number" name="quantity of books required" />
+                            <a href="#" class="far fa-heart wish-list"></a>
+                            <hr>
+                            <button href="#" class="btn btn-outline-success buy-button" type="button">Add to Basket</button>
+                            <hr class="hr-over-readmore-button-margin"><br>
+                            <button class="read-more-button" type="button" data-toggle="collapse" data-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-right"></i></button>
+                        </p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h3>Synopsis</h3>
+                        <p class="synopsis">Paul Nicholls is the former jockey who began training in 1991. Gradually he built up a reputation as one of the most astute and successful trainers in the business, with a special knack for getting it right on the big occasions.
+                            His depth of resources meant that on a unique occasion at Wincanton in January 2006, he became the first trainer ever to have six winners on a card. But it is for his role as the trainer of horses such as See More Business,
+                            Kauto Star and Denman, all of them Cheltenham Gold Cup winners, that he is best known. In this revealing and honest memoir, Champion Trainer Nicholls explains how he got to the top of his sport, and provides a
+
+                        </p>
+                        <div class="collapse" id="collapseExample9">
+                            <div class="dropdown-synopsis card card-body">
+                                fascinating insight into his methods and to the horses, jockeys and owners that have helped him achieve so much. Packed with insider stories that all race fans will love, and a foreword from Sir Alex Ferguson, this is without doubt the essential racing
+                                book for 2011.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-div-margin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="horse_racing_images/kierenfallon.jpg" class="title-image" alt="picture of kieren fallon"></img>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="kieren-fallon-title">FORM:<br><span class="kieren-fallon-subtitle">MY AUTOBIOGRAPGHY</h1><br></span>
+                            <hr class="title-hr-margin">
+                            <p>
+                                By <span class="author">Kieren Fallon</span> | 31/10/17<br>
+                                <span class="price">€23.99</span>
+                                <span class="stock">In Stock</span>
+                                <span class="fas fa-check stock-tick"></span><br>
+                                <hr> Quantity
+                                <input class="quantity-input" type="number" name="quantity of books required" />
+                                <a href="#" class="far fa-heart wish-list"></a>
+                                <hr>
+                                <button href="#" class="btn btn-outline-success buy-button" type="button">Add to Basket</button>
+                                <hr class="hr-over-readmore-button-margin"><br>
+                                <button class="read-more-button" type="button" data-toggle="collapse" data-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-right"></i></button>
+                            </p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h3>Synopsis</h3>
+                        <p class="synopsis">As a jockey, Kieren Fallon had a unique rapport with his horses, often coaxing them to victory when others had struggled. His skill and commitment made him a punter’s favourite. His magnificent record, which saw him crowned Champion
+                            Jockey on six occasions, ensured he became one of racing’s biggest stars. But that was only ever part of the story. Having come over to the UK from Ireland to make his name, Fallon’s combative nature brought him to the attention
+                            of the racing authorities. When he dragged a rival jockey off his mount in 1994, he began a series of run-ins that would eventually see him on trial in the Old Bailey, accused of race fixing. Although the judge eventually ruled
+                            that there was
+
+                        </p>
+                        <div class="collapse" id="collapseExample10">
+                            <div class="dropdown-synopsis card card-body">
+                                no case to answer, the damage to his career and reputation had been done. In Form, Kieren Fallon provides a searingly honest account of his life, and the pressures he faced to get to the top of his sport, where winning was never enough, and where relaxation
+                                came in the shape of a bottle of vodka or a meal that had to be ‘flipped’ immediately to ensure he maintained his weight. He worked with some of the best trainers and won all the biggest races, but true happiness only ever
+                                really came to him when he was on the back of a horse – a joy that he still feels now that he has retired from racing as he rides work early in the morning.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-div-margin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="horse_racing_images/coolmorestud.jpg" class="title-image" alt="picture of coolmore stud"></img>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="coolmore-stud-title">COOLMORE STUD</h1><br>
+                        <hr class="title-hr-margin">
+                        <p>
+                            By <span class="author">Alan Conway</span> | 17/02/17<br>
+                            <span class="price">€13.50</span>
+                            <span class="stock">In Stock</span>
+                            <span class="fas fa-check stock-tick"></span><br>
+                            <hr> Quantity
+                            <input class="quantity-input" type="number" name="quantity of books required" />
+                            <a href="#" class="far fa-heart wish-list"></a>
+                            <hr>
+                            <button href="#" class="btn btn-outline-success buy-button" type="button">Add to Basket</button>
+                            <hr class="hr-over-readmore-button-margin"><br>
+                            <button class="read-more-button" type="button" data-toggle="collapse" data-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-right"></i></button>
+                        </p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h3>Synopsis</h3>
+                        <p class="synopsis">The inside story of the greatest horse-breeding operation in Ireland is now available in paperback. Nestled in a quiet part of County Tipperary, Coolmore Stud casts as long a shadow as any sporting entity over the history of Irish
+                            sport. Founded by the legendary horse trainer Vincent O'Brien, and now managed by John Magnier, Coolmore Stud has grown from a small breeding farm into a global behemoth, renowned the world over for the quality of the horses
+                            it produces. Alan Conway tells the story of how Coolmore Stud and its training operation at Ballydoyle have come to dominate the world of horse breeding and racing.
+                        </p>
+                        <div class="collapse" id="collapseExample11">
+                            <div class="dropdown-synopsis card card-body">
+                                Using the stories of the people involved, including the legendary Syndicate of Magnier, O'Brien and Robert Sangster, and of the famous horses it has produced, such as the legendary 'Sadler's Wells', his sons 'Galileo' and 'Montjeu', and the mighty 'Danehill',
+                                this book charts the rise of one of Ireland's greatest sporting success stories.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-div-margin-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="horse_racing_images/frankie.jpg" class="title-image" alt="picture of frankie dettori"></img>
+                    </div>
+                    <div class="col-md-3">
+                        <h1 class="frankie-dettori-title">FRANKIE DETTORI:<br>MY STORY</h1><br>
+                        <hr class="title-hr-margin">
+                        <p>
+                            By <span class="author">Frankie Dettori</span> | 31/12/17<br>
+                            <span class="price">€19.40</span>
+                            <span class="stock">In Stock</span>
+                            <span class="fas fa-check stock-tick"></span><br>
+                            <hr> Quantity
+                            <input class="quantity-input" type="number" name="quantity of books required" />
+                            <a href="#" class="far fa-heart wish-list"></a>
+                            <hr>
+                            <button href="#" class="btn btn-outline-success buy-button" type="button">Add to Basket</button>
+                            <hr class="hr-over-readmore-button-margin"><br>
+                            <button class="read-more-button" type="button" data-toggle="collapse" data-target="#collapseExample12" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-right"></i></button>
+                        </p>
+                    </div>
+                    <div class="col-md-5 ">
+                        <h3>Synopsis</h3>
+                        <p class="synopsis">After almost 30 years in racing, Frankie Dettori has seen it all. Arriving at Luton airport at the age of 14 with no English and a tag around his neck like Paddington Bear, Dettori soon found fame and success in and out of the
+                            saddle. Having become the first teenaged jockey since Lester Piggott to win more than 100 races in a season, he went on to ever greater success, reaching a peak when (uniquely in racing history) he won all seven races on the
+                            card at Ascot in September 1996. Famous for his flying dismounts after winning a race, he quickly became a housewife's and punter's favourite - the one modern jockey to transcend the sport. He has won all the big races, and
+                            has a knack of developing a 
+                        </p>
+                        <div class="collapse" id="collapseExample12">
+                            <div class="dropdown-synopsis card card-body">
+                               superb relationship with his horses that ensures he gets the best out of them, often storming to the front in the final few strides. In this fascinating memoir, Dettori recalls the great races and
+                            horses, and reveals the truth about his work with the trainers and owners who have supported him. Dettori has always lived life to the full - now he is sharing his remarkable story with all those who have followed his career
+                            to date.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footer-text">
+                <div class=" col-sm col-md-3 address">
+                    <h7>Details</h7>
+                    <p>No 3 Pollerton Road<br> Carlow Town<br> Co. Carlow <br> R93W4R3
+                    </p>
+                    <p>
+                        <a href="#" target="_blank">info@example.com</a><br>
+                        <a href="#" target="_blank">01-123456789</a>
+                    </p>
+                </div>
+                <div class=" col-sm col-md-3">
+                    <h7>Account</h7>
+                    <p>
+                        <a href="#">My Account</a><br>
+                        <a href="#">My Cart</a><br>
+                        <a href="#">Wish List</a>
+                    </p>
+                </div>
+                <div class=" col-sm col-md-3">
+                    <h7>Customer Information</h7>
+                    <p>
+                        <a href="#">FAQ</a><br>
+                        <a href="#">Delivery Information</a><br>
+                        <a href="#">Voucher Information</a><br>
+                        <a href="#">Privacy Policy</a><br>
+                    </p>
+                </div>
+                <div>
+                    <h7>Social Media</h7>
+                    <p>
+                        <a href="#" class="fab fa-facebook-square social-media-icon-facebook"></a>
+                        <a href="#" class="fab fa-twitter-square social-media-icon-twitter"></a><br>
+                        <a href="#" class="fab fa-instagram social-media-icon-instagram"></a>
+                        <a href="#" class="fab fa-snapchat-square social-media-icon-snapchat"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

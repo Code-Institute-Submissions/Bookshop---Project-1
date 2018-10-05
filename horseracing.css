@@ -144,74 +144,73 @@ section {
     margin-bottom: 15px;
 }
 
-/* Steven Gerrard: Start -------------*/
+/*Ruby Walsh: Start ------------------*/
 
-.steven-gerrard-title {
+.ruby-walsh-title {
     color: black;
 }
 
-/* Steven Gerrard: End ---------------*/
+/*Ruby Walsh: End --------------------*/
 
-/*David Beckham: Start ---------------*/
+/*AP McCoy: Start ---------------*/
 
-.david-beckham-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 0px;
-}
-
-
-/*David Beckham: End------------------ */
-
-/*Alex Ferguson: Start----------------*/
-
-.alex-ferguson-title {
+.ap-mccoy-title {
     font-size: 25px;
     font-weight: bold;
     color: black;
     margin-bottom: 0px;
 }
 
-/*Alex Ferguson: End----------------*/
+/*AP McCoy: End------------------ */
 
-/*Peter Crouch: Start----------------*/
+/*Paul Nicholls: Start----------------*/
 
-.peter-crouch-title {
+.paul-nicholls-title {
     font-size: 25px;
     font-weight: bold;
     color: black;
     margin-bottom: 0px;
 }
 
-/*Peter Crouch: End----------------*/
+/*Paul Nicholls: End----------------*/
 
-/*Cristiano Ronaldo: Start----------------*/
+/*Kieren Fallon: Start----------------*/
 
-.cristiano-ronaldo-title {
-    font-size: 20px;
+.kieren-fallon-title {
+    font-size: 25px;
     font-weight: bold;
     color: black;
     margin-bottom: 0px;
 }
 
-.author-cristiano-ronaldo {
-    color: gold;
-    font-size: 15px;
+.kieren-fallon-subtitle {
+    font-size: 19px;
+    
 }
 
-/*Cristiano Ronaldo: End----------------*/
+/*Kieren Fallon: End----------------*/
 
-/*Rio Ferdinand: Start--------------*/
+/*Coolmoore Stud: Start----------------*/
 
-.rio-ferdinand-title {
+.coolmore-stud-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Coolmore Stud: End----------------*/
+
+/*Frankie Dettori: Start--------------*/
+
+.frankie-dettori-title {
     font-size: 21px;
     font-weight: bold;
     color: black;
     margin-bottom: 0px;
 }
 
-/*Rio Ferdinand: End----------------*/
+/*Frankie Dettori: End----------------*/
 
 .main-div-margin-top {
     margin-top: 50px;
