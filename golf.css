@@ -1,0 +1,386 @@
+/*header-----------------*/
+
+header {
+    margin: 0px;
+}
+
+.header-image {
+    height: 200px;
+    width: 100vw;
+    background-image: url("index_images/header/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 100px;
+    font-size: 70px;
+    font-family: cursive, sans-serif;
+}
+
+.navbar-nav {
+    margin-left: 33%;
+}
+
+.bg-info {
+    background-color: black!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 25px;
+}
+
+.dropdown-item {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+.user {
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+}
+
+.user:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.currency {
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.currency:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.basket {
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+}
+
+.basket:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+
+input[type=text] {
+    width: 260px;
+    margin-top: 5px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 93%;
+}
+
+.search-button {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+.search-button:hover {
+    background-color: grey;
+}
+
+.search-button:active {
+    background-color: lightgrey;
+    color: black;
+    /*box-shadow: 0 5px #666;*/
+    /*transform: translateY(4px);*/
+}
+
+
+/*section----------------------------------------------*/
+
+section {
+    margin-top: 4px;
+    border-top-width: 5px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    background-color: darkgrey;
+}
+
+.title-image {
+    margin-bottom: 15px;
+}
+
+/*Tiger Woods: Start ------------------*/
+
+.tiger-woods-title {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Tiger Woods: End --------------------*/
+
+/*Ian Poulter: Start ---------------*/
+
+.ian-poulter-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+.ian-poulter-subtitle {
+    font-size: 19px;
+}
+
+/*Ian Poulter: End------------------ */
+
+/*Seve: Start----------------*/
+
+.seve-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.seve-subtitle {
+    font-size: 18px;
+}
+
+.seve-author {
+    font-size: 15px;
+}
+
+/*Seve: End----------------*/
+
+/*Jack Nicklaus: Start----------------*/
+
+.jack-nicklaus-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Jack Nicklaus: End----------------*/
+
+/*Darren Clarke: Start----------------*/
+
+.darren-clarke-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.darren-clarke-subtitle {
+    font-size: 19px;
+}
+
+/*Darren Clarke: End----------------*/
+
+/*Ben Hogan: Start--------------*/
+
+.ben-hogan-title {
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/*Ben Hogan: End----------------*/
+
+.main-div-margin-top {
+    margin-top: 50px;
+}
+.title-hr-margin {
+    margin-top: 0px;
+}
+
+.author {
+    color: gold;
+}
+
+.price {
+    font-family: monospace;
+    font-size: 25px;
+    color: #cc0088;
+    font-weight: bold;
+}
+
+.stock {
+    padding-left: 40px
+}
+
+.stock-tick {
+    color: #00b300;
+}
+
+.quantity-input {
+    background-color: white!important;
+    height: 25px!important;
+    width: 40px!important;
+    box-sizing: border-box!important;
+    border-width: 1px!important;
+}
+
+.wish-list {
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.wish-list:hover {
+    color: pink;
+    text-decoration: none;
+    /*background-color: pink;*/
+}
+
+.buy-button {
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+    width: 200px;
+    outline: none!important;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+    border-width: 5px;
+}
+
+
+.read-more-button {
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5px;
+    outline: none!important;
+    background-color: black;
+    color: white;
+    border-top-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    width: 100px;
+    margin-left: 120px;
+    opacity: .4;
+}
+
+.read-more-button:hover {
+    opacity: 1;
+}
+
+.hr-over-readmore-button-margin {
+    margin-bottom: 0px;
+}
+
+.synopsis {
+    margin-bottom: 0px;
+}
+
+.dropdown-synopsis {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    background-color: darkgray;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+/*footer----------------------------------*/
+
+footer {
+    background-color: grey;
+    margin-top: 10px;
+}
+
+h7 {
+    font-weight: bold;
+    color: #00FA9A;
+}
+
+p>a {
+    color: black;
+}
+
+p>a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.address {
+    color: black;
+}
+
+.social-media-icon-facebook {
+    font-size: 50px;
+    margin: 0 15px 15px 0;
+}
+
+.social-media-icon-facebook:hover {
+    color: rgb(59, 89, 152);
+}
+
+.social-media-icon-twitter {
+    font-size: 50px
+}
+
+.social-media-icon-twitter:hover {
+    color: #1DA1F2;
+}
+
+.social-media-icon-instagram {
+    font-size: 50px;
+    margin: 0 15px 15px 0;
+}
+
+.social-media-icon-instagram:hover {
+    color: #8a3ab9;
+}
+
+.social-media-icon-snapchat {
+    font-size: 50px
+}
+
+.social-media-icon-snapchat:hover {
+    color: #FFFB00;
+}
