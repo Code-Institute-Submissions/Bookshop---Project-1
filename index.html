@@ -16,15 +16,13 @@
     <header>
         <div class="container-fluid no-gutters">
             <div class="row">
-                <div class="col-sm- header-image header-text">
-                    <p></p>
-                </div>
+                <div class="header-image"></div>
             </div>
         </div>
-
-
         <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-            <a class="navbar-brand" href="index.html">Logo</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="logo_images/logo3.JPG" class="logo-image" alt="image of website logo"></img>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,8 +43,6 @@
                         <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
                 </ul>
-
-
                 <ul class="navbar-nav ml-auto">
                     <li><a href="#" class="far fa-user user"></a></li>
                     <li><a href="#" class="fas fa-euro-sign currency"></a></li>
@@ -56,46 +52,50 @@
         </nav>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-sm-12 col-md-12 col-lg-12">
                     <form class="form-inline">
                         <input class="search-bar" type="text" name="search" placeholder="Search Title, Autor, Sport..">
-                        <button class="fas fa-search search-button" type="submit"></button>
                     </form>
                 </div>
             </div>
         </div>
-
     </header>
     <section>
         <div class="container-fluid banner-text-align">
             <div class="row">
-                <div class="col-md-4 banner-background-events banner-events">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 banner-background-events banner-events">
                     <a class="banner-events" href="#">Events</a>
                 </div>
-                <div class="col-md-4 banner-background-store-locator banner-store-locator">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 banner-background-store-locator banner-store-locator">
                     <a class="banner-store-locator" href="#">Store Locator</a>
                 </div>
-                <div class="col-md-4 banner-background-gift-voucher banner-gift-voucher">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 banner-background-gift-voucher banner-gift-voucher">
                     <a class="banner-gift-voucher" href="#">Gift Voucher</a>
                 </div>
             </div>
         </div>
-
         <div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
-                        <img src="index_images/section/sectionimage.jpg" class="sectionpicture float-left">
-
-                        <h1>About Us</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic cum quo consectetur fugit repudiandae nam dignissimos, minima dicta et ipsa similique possimus dolore dolor ullam corporis nesciunt, officia tenetur. Numquam necessitatibus
-                            ab dolorum laborum dolore excepturi et aspernatur. Neque, quas accusantium. Officiis voluptatibus dolor, aut, doloremque labore sit magni consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nobis
-                            ipsam consectetur voluptatibus laborum ea atque eum eos, magnam porro vitae. Corporis, ipsa dolores tempore ullam. Excepturi quidem ea deserunt iusto eum voluptatem perferendis impedit officia natus, quae fugit hic deleniti
-                            vitae delectus alias iste dicta amet commodi voluptate recusandae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ratione ut ipsa accusamus obcaecati dolorem dolorum repellat reiciendis impedit illum autem
-                            assumenda neque repudiandae delectus omnis temporibus fuga nihil animi iusto itaque consequuntur ad incidunt, veritatis aperiam quisquam. Ducimus laboriosam doloribus sit, quod odit aliquid exercitationem distinctio minima
-                            atque eveniet, accusamus molestias vel id nam eius voluptate reiciendis at illo sapiente sequi ex iure aspernatur expedita! Tenetur expedita, nostrum fuga consequatur eaque doloremque, assumenda quos nam magnam! Tempora itaque,
-                            mollitia, ut commodi dolorem laudantium quo voluptas nihil voluptate, et corrupti numquam alias deleniti aliquam quia iure! Ipsa vero, inventore omnis!</p>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <center><h1 class="about-us-heading"><em>About Us</em></h1></center>
+                        <center><p class="paragragh-text">
+                            Welcome to Stratton Oakmont. Stratton Oakmont's journey started by delivering only horse racing books direct to people's homes with just one van around the island of Ireland. Today we are the Irish's favourite independent bookstore, providing our customers
+                            all around the world with a place to buy sport books, gift vouchers and inviting our members to all of our most recent events.
+                        </p></center>
                     </div>
+                    <div class="collapse" id="collapseExample19">
+                        <div class="aboutus-dropdown">
+                            <center><p>
+                                    But beyond our unbelievable prices, what really sets Stratton Oakmont apart from the competition
+                            is our commitment to providing our customers with service you deserve. Whether you want to explore and shop our extensive range of discount books online, over the phone, through the post or even in the convenience of your workplace,
+                            our friendly and knowledgeable staff are on hand to offer you help and advice whenever you need it. If there is a book you are looking for but find it diffcult to find, our staff would be delighted to hear from you as we all
+                            love a challenge. You provide as much information on what you are looking for and we will do our utmost to get you that book. And that's not all... we put our money where our mouth is with our 30-day money-back guarantee -
+                            if you're not happy with your books for any reason we'll offer you a full refund, without question. We look forward to you joining us on the next chapter of our story.
+                            </p></center>
+                        </div>
+                    </div>
+                    <button class="aboutus-dropdown-button btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample19" aria-expanded="false" aria-controls="collapseExample">Read More <i class="fas fa-arrow-down"></i></button>
                 </div>
             </div>
         </div>
@@ -133,13 +133,43 @@
                 </a>
             </div>
         </div>
-
+        <hr class="style-one"></hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="testimonials-heading"><em>Customer Reviews</em></h1>
+                    <blockquote class="blockquote">
+                        <i class="fas fa-quote-left"></i>
+                        <span>Excellent price and great customer service!</span>
+                        <i class="fas fa-quote-right"></i>
+                        <footer class="blockquote-footer">John, Melbourne</footer>
+                    </blockquote>
+                    <blockquote class="blockquote">
+                        <i class="fas fa-quote-left"></i>
+                        <span>Great, high-quality products. Amazing prices, quick delivery!</span>
+                        <i class="fas fa-quote-right"></i>
+                        <footer class="blockquote-footer">Mary, Dublin</footer>
+                    </blockquote>
+                    <blockquote class="blockquote">
+                        <i class="fas fa-quote-left"></i>
+                        <span>Fast, efficient service - excellent quality and at a bargain price!</span>
+                        <i class="fas fa-quote-right"></i>
+                        <footer class="blockquote-footer">Peter, Wicklow</footer>
+                    </blockquote>
+                    <blockquote class="blockquote">
+                        <i class="fas fa-quote-left"></i>
+                        <span>Super helpful staff. Simply 5 star service!!!</span>
+                        <i class="fas fa-quote-right"></i>
+                        <footer class="blockquote-footer">Laura, New York</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
     </section>
-
     <footer>
         <div class="container">
-            <div class="row footer-text">
-                <div class=" col-sm col-md-3 address">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 address">
                     <h7>Details</h7>
                     <p>No 3 Pollerton Road<br> Carlow Town<br> Co. Carlow <br> R93W4R3
                     </p>
@@ -148,7 +178,7 @@
                         <a href="#" target="_blank">01-123456789</a>
                     </p>
                 </div>
-                <div class=" col-sm col-md-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <h7>Account</h7>
                     <p>
                         <a href="#">My Account</a><br>
@@ -156,7 +186,7 @@
                         <a href="#">Wish List</a>
                     </p>
                 </div>
-                <div class=" col-sm col-md-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <h7>Customer Information</h7>
                     <p>
                         <a href="#">FAQ</a><br>
@@ -165,7 +195,7 @@
                         <a href="#">Privacy Policy</a><br>
                     </p>
                 </div>
-                <div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 social-media-padding">
                     <h7>Social Media</h7>
                     <p>
                         <a href="#" class="fab fa-facebook-square social-media-icon-facebook"></a>
@@ -176,13 +206,7 @@
                 </div>
             </div>
         </div>
-
-
     </footer>
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

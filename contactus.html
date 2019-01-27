@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="contactus.css" type="text/css" />
     <title>Project 1 - Book Shop</title>
 </head>
-
 <body>
     <header>
         <div class="container-fluid no-gutters">
@@ -22,7 +21,9 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-sm bg-info navbar-dark">
-            <a class="navbar-brand" href="index.html">Logo</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="logo_images/logo3.JPG" class="logo-image" alt="image of website logo"></img>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,28 +51,18 @@
                 </ul>
             </div>
         </nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <form class="form-inline">
-                        <input class="search-bar" type="text" name="search" placeholder="Search Title, Autor, Sport..">
-                        <button class="fas fa-search search-button" type="submit"></button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </header>
     <section>
         <nav label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
             </ol>
         </nav>
-        <div class="container">
+        <center><div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h1>Got A Question?</h1><br>
+                <div class="col-xs-12 col-sm-12 col-md-6 lg-md-6">
+                    <h2>Got A Question?</h2><br>
                     <form action="/action_page.php">
                         <label class="title-name">Name:</label>
                         <input class="input-name" type="string" name="FullName"><br>
@@ -87,57 +78,38 @@
                         </form>
                     </div>
                 </div>
-
-                <div class="col-md-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 lg-md-6">
                     <div class="opening-times-width">
                         <h2>Opening Times</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-3 opening-days">
-                            <span>Monday</span><br>
-                            <span>Tuesday</span><br>
-                            <span>Wednesday</span><br>
-                            <span>Thursday</span><br>
-                            <span>Friday</span><br>
-                            <span>Saturday</span><br>
-                            <span>Sunday</span><br>
-                        </div>
-                        <div class="col-8 opening-times">
-                            <span>9am-4.30pm</span><br>
-                            <span>9am-4.30pm</span><br>
-                            <span>9am-4.30pm</span><br>
-                            <span>9am-6.30pm</span><br>
-                            <span>9am-6.30pm</span><br>
-                            <span>9am-2.00pm</span><br>
-                            <span>Closed</span><br>
+                    <div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 lg-md-6 opening-days">
+                            <div><span class="pull-left">Monday</span><span class="pull-right"> 9am-4.30pm</span></div><br>
+                            <div><span class="pull-left">Tuesday</span><span class="pull-right"> 9am-4.30pm</span></div><br>
+                            <div><span class="pull-left">Wednesday</span><span class="pull-right"> 9am-4.30pm</span></div><br>
+                            <div><span class="pull-left">Thursday</span><span class="pull-right"> 9am-6.30pm</span></div><br>
+                            <div><span class="pull-left">Friday</span><span class="pull-right"> 9am-6.30pm</span></div><br>
+                            <div><span class="pull-left">Saturday</span><span class="pull-right"> 10am-2.30pm</span></div><br>
+                            <div><span class="pull-left">Sunday</span><span class="pull-right"> Closed</span></div><br>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div></center>
         <div class="container-fluid">
             <div class="row">
-                <div class=" col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 lg-md-12">
                     <iframe class="map-width" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.875926415191!2d-6.267914784550751!3d53.345477179978886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e82d2150ed5%3A0x6bd086c42f1a3f48!2sIBAT+College+Dublin!5e0!3m2!1sen!2sie!4v1538660304838"
                         width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
     </section>
     <footer>
         <div class="container">
-            <div class="row footer-text">
-                <div class=" col-sm col-md-3 address">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 address">
                     <h7>Details</h7>
                     <p>No 3 Pollerton Road<br> Carlow Town<br> Co. Carlow <br> R93W4R3
                     </p>
@@ -146,7 +118,7 @@
                         <a href="#" target="_blank">01-123456789</a>
                     </p>
                 </div>
-                <div class=" col-sm col-md-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <h7>Account</h7>
                     <p>
                         <a href="#">My Account</a><br>
@@ -154,7 +126,7 @@
                         <a href="#">Wish List</a>
                     </p>
                 </div>
-                <div class=" col-sm col-md-3">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <h7>Customer Information</h7>
                     <p>
                         <a href="#">FAQ</a><br>
@@ -163,7 +135,7 @@
                         <a href="#">Privacy Policy</a><br>
                     </p>
                 </div>
-                <div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 social-media-padding">
                     <h7>Social Media</h7>
                     <p>
                         <a href="#" class="fab fa-facebook-square social-media-icon-facebook"></a>
@@ -174,13 +146,7 @@
                 </div>
             </div>
         </div>
-
-
     </footer>
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

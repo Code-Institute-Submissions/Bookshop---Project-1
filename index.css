@@ -12,17 +12,13 @@ header {
     background-position: center;
 }
 
-.header-text {
-    color: yellow;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 100px;
-    font-size: 70px;
-    font-family: cursive, sans-serif;
+.logo-image {
+    height:50px;
+    width: 75px;
 }
 
 .navbar-nav {
-    margin-left: 33%;
+    margin-left: 30%;
 }
 
 .bg-info {
@@ -49,10 +45,19 @@ header {
     border-bottom-width: 0px;
 }
 
+@media only screen and (max-width: 600px) {
+    .far{
+        display: none
+    }
+    .fas {
+        display:none;
+    }
+}
+
 .user {
     font-size: 25px;
     color: white;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .user:hover {
@@ -82,8 +87,8 @@ header {
     color: lightgrey;
 }
 
-input[type=text] {
-    width: 260px;
+.search-bar {
+    width: 100%;
     margin-top: 5px;
     outline: none;
     box-sizing: border-box;
@@ -93,41 +98,8 @@ input[type=text] {
     background-color: white;
     background-position: 10px 10px;
     padding: 12px 20px 12px 40px;
-    transition: width 0.5s ease-in-out;
+    
 }
-
-input[type=text]:focus {
-    width: 93%;
-}
-
-.search-button {
-    margin-top: 5px;
-    margin-left: 5px;
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: black;
-    border: none;
-    border-radius: 15px;
-
-}
-
-.search-button:hover {
-    background-color: grey;
-}
-
-.search-button:active {
-    background-color: lightgrey;
-    color: black;
-    /*box-shadow: 0 5px #666;*/
-    /*transform: translateY(4px);*/
-}
-
 
 
 /*section----------------------------------------------*/
@@ -162,11 +134,12 @@ section {
 
 .banner-events {
     height: 50px;
-    width: 200px;
+    width: 100%;
     text-align: center;
     color: white;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom:10px;
 }
 
 .banner-events:hover {
@@ -186,11 +159,12 @@ section {
 
 .banner-store-locator {
     height: 50px;
-    width: 200px;
+    width: 100%;
     text-align: center;
     color: white;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom:10px;
 }
 
 .banner-store-locator:hover {
@@ -210,7 +184,7 @@ section {
 
 .banner-gift-voucher {
     height: 50px;
-    width: 200px;
+    width: 100%;
     text-align: center;
     color: white;
     font-size: 25px;
@@ -223,10 +197,32 @@ section {
     text-decoration: none;
 }
 
-.sectionpicture {
-    height: 200px;
-    width: 200px;
-    margin: 10px;
+.about-us-heading {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragragh-text {
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.aboutus-dropdown {
+    background-color: darkgrey;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.aboutus-dropdown-button {
+    width: 150px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 10px;
 }
 
 .style-one {
@@ -267,6 +263,26 @@ section {
     width: 50px;
 }
 
+.testimonials-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+    background-color: darkgrey;
+}
+
+
+
 
 /*footer----------------------------------*/
 
@@ -291,6 +307,11 @@ p>a:hover {
 
 .address {
     color: black;
+}
+
+.social-media-padding {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .social-media-icon-facebook {

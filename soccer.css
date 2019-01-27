@@ -12,13 +12,9 @@ header {
     background-position: center;
 }
 
-.header-text {
-    color: yellow;
-    text-align: center;
-    text-decoration: none;
-    padding-top: 100px;
-    font-size: 70px;
-    font-family: cursive, sans-serif;
+.logo-image {
+    height:50px;
+    width: 75px;
 }
 
 .navbar-nav {
@@ -47,6 +43,15 @@ header {
     border-right-width: 0px;
     border-top-width: 0px;
     border-bottom-width: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .far{
+        display: none
+    }
+    .fas {
+        display:none;
+    }
 }
 
 .user {
@@ -82,9 +87,8 @@ header {
     color: lightgrey;
 }
 
-
-input[type=text] {
-    width: 260px;
+.search-bar {
+    width: 100%;
     margin-top: 5px;
     outline: none;
     box-sizing: border-box;
@@ -93,40 +97,11 @@ input[type=text] {
     font-size: 16px;
     background-color: white;
     background-position: 10px 10px;
-    background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-    transition: width 0.5s ease-in-out;
 }
 
-input[type=text]:focus {
-    width: 93%;
-}
-
-.search-button {
-    margin-top: 5px;
-    margin-left: 5px;
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 15px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: black;
-    border: none;
-    border-radius: 15px;
-}
-
-.search-button:hover {
-    background-color: grey;
-}
-
-.search-button:active {
-    background-color: lightgrey;
-    color: black;
-    /*box-shadow: 0 5px #666;*/
-    /*transform: translateY(4px);*/
+.breadcrumb {
+    width: 205px;
 }
 
 
