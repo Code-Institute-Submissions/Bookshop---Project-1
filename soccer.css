@@ -50,7 +50,7 @@ header {
         display: none
     }
     .fas {
-        display:none;
+        display: none;
     }
 }
 
@@ -207,7 +207,7 @@ section {
 }
 
 .stock {
-    padding-left: 40px
+    margin-left: 40px
 }
 
 .stock-tick {
@@ -231,7 +231,7 @@ section {
 .wish-list:hover {
     color: pink;
     text-decoration: none;
-    /*background-color: pink;*/
+    
 }
 
 .buy-button {
@@ -239,7 +239,7 @@ section {
     text-align: center;
     cursor: pointer;
     margin-left: 5px;
-    width: 200px;
+    width: 100%;
     outline: none!important;
     color: black;
     border-color: black;
@@ -252,7 +252,6 @@ section {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-    margin-left: 5px;
     outline: none!important;
     background-color: black;
     color: white;
@@ -260,11 +259,11 @@ section {
     padding-top: 0px;
     padding-bottom: 0px;
     border-bottom-width: 0px;
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-left: 5px;
     margin-bottom: 0px;
     font-size: 12px;
     width: 100px;
-    margin-left: 120px;
     opacity: .4;
 }
 
