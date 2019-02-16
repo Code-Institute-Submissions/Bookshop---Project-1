@@ -153,6 +153,10 @@ input {
     margin-bottom: 20px;
 }
 
+.submit-btn {
+    margin-bottom: 20px
+}
+
 .opening-days {
     color: black;
     font-size: 20px;
