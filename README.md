@@ -64,4 +64,4 @@ The title, synopsis and information for each book was obtained from sites https:
 ## Acknowledgements
 
 * I received inspiration for this project from other online bookshop sites such as https://www.amazon.co.uk/ and https://www.easons.com/. My original idea for this project was that for me, which is not a religious reader, but one who would read anything to do with sport was to have an application which caters to just avid sports book readers. If a potential consumer was looking for a sports related book, they would immediatly think of this website.
-* I also too inspiration from https://www.kennys.ie/
+* I also took inspiration from https://www.kennys.ie/
